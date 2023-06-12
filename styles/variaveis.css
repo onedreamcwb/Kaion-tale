@@ -10,3 +10,7 @@
     font-family: "diablo";
     src: url(../fonts/diablo_h.ttf);
 }
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/RobotoSlab-Bold.ttf);
+}

@@ -1,7 +1,64 @@
 .container-person {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.container-video {
+    position: relative;   
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.container-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.title-video  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.container-2 {
+    align-items: center;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
     display: flex;
-    margin: 1em;
+    justify-content: center;
+    height: 400px;
+    opacity: 0.7;
+    overflow: hidden;
+    padding: 3rem 0;
+    width: 100%;
 }
 .container-person-archer {
-    
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    align-items: center;
+    margin: 2em;
+}
+.container-img {
+    width: 250px;
+}
+h2 {
+    font-family: "diablo";
+    font-size: 100px;
+    color: var(--font-diablo);
+    padding-bottom: 10px;
+}
+.paragraph {
+    font-family: "roboto", sans-serif;
+    font-size: 1.25em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
