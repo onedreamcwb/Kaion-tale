@@ -1,0 +1,12 @@
+:root {
+    --background: #1e1e1e;
+    --background-border: #3a3a3a;
+    --background-button: #c9aa71;
+    --font-diablo: #c9a970;
+    --font-roboto: #bbac9b;
+    --header: #000000;
+}
+@font-face {
+    font-family: "diablo";
+    src: url(../fonts/diablo_h.ttf);
+}
