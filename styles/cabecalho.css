@@ -1,0 +1,14 @@
+@import url(variaveis.css);
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 1em;
+    background-color: var(--header);
+    height: 50px;
+    font-family: "diablo", sans-serif;
+}
+.cabecalho img {
+    width: 100px;
+}
